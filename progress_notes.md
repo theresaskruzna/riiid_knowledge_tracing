@@ -20,3 +20,6 @@ This made my runtime crash as I ran out of RAM. I could've tried using Pycharm o
 I spent quite few hours trying to figure out the best way around it, eg. converting .csv to pkl.gzip, but other options also needed significant memory to run.
 Eventually, I found a dataset on kaggle that was already converted and of high quality and used it to replace train.csv file with.
 Now I managed to load all required into the notebook I can finally start my EDA for this project.
+
+I have run into another bump, loading the pickle dataset as of now I am downloading a whole directory of other formats too but I don't need them.
+I will have a look at fixing that tomorrow to just download the single data set out of the directory but for now it has already loaded the director so will be working with it in this runtime session to analyse my data.
