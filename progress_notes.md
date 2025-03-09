@@ -23,3 +23,12 @@ Now I managed to load all required into the notebook I can finally start my EDA 
 
 I have run into another bump, loading the pickle dataset as of now I am downloading a whole directory of other formats too but I don't need them.
 I will have a look at fixing that tomorrow to just download the single data set out of the directory but for now it has already loaded the director so will be working with it in this runtime session to analyse my data.
+
+I am just testing all the code cells i prepared to start my EDA and my runtime keeps crashing on some of them.
+This super frustrating but at least I can see what code won't be working and where I have to use alternate methods.
+I finally managed to get to the last code cell I wanted to test.
+There are 2 code cells for the EDA that crashed the session: .describe for individual features and .duplicated to find duplicates in the dataset.
+I will try and fix that tomorrow as some of the data types in the data set need to be changed, e.g. object to boolean.
+This will hopefully help with the code running more smoothly.
+Once I sort out some of the issues with the data, I'll do some visualisations to see distributions and relationships and draw out some hypothesis for my analysis and forecasting.
+From looking at the datasets and decription of the compettion, I have identified answered_correctly as the target variable.
