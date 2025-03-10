@@ -65,3 +65,7 @@ The next thing I should be doing is some data visualisations on key distribution
 
 Right, I decided to deal with the 1 missing value in the question.csv as it was easy enough.
 I first cross checked the representation of this particular question in the train.pkl.gzip dataset but as it was only asked once in this huge dataset, I decided to delete it altogether.
+I can see that the 3 datasets are pretty interconnected as we see features like question_id from the smaller ones represented in the main dataset.
+So I'll have a look at each variable now and how it may be connected to the other datasets.
+
+
