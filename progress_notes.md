@@ -5,6 +5,8 @@ From the beginning this was going to be a challenge, however, that makes it more
 The Riiid dataset was an original dataset for a kaggle competion from about 4 years ago.
 The person who won it created a very sophisticated model, however, my initial approach will be more basic in the eyes of skilled ML engineers.
 
+Day 1 - Saturday 08/03/25
+
 I started with consulting chatgpt and claude on the best way to approach this project.
 With the help of these 2 chatbots, I managed to generate a pretty decent action plan for the next 2+ weeks until the deadline.
 I created a github repository and set up set up google collab notebooks for this project.
@@ -14,6 +16,8 @@ This might have been due to the fact that it was a competition using Kaggle API 
 I didn't want to waste time trying to figure out how to use kagglehub so I consulted with chatgpt and Claude.
 They both usggested dowloading Kaggle API package and dowloading a directory with the dataset into my home folder.
 That is what I did to get the dataset into my collab notebook.
+
+Day 2 - Sunday 09/03/25
 
 Next issue I ran into was that the main file train.csv was too large (5.85GB) as it contains 100+ millions of rows of data.
 This made my runtime crash as I ran out of RAM. I could've tried using Pycharm or VScode but am sure my laptops RAM and CPU are even worse.
@@ -32,3 +36,23 @@ I will try and fix that tomorrow as some of the data types in the data set need 
 This will hopefully help with the code running more smoothly.
 Once I sort out some of the issues with the data, I'll do some visualisations to see distributions and relationships and draw out some hypothesis for my analysis and forecasting.
 From looking at the datasets and decription of the compettion, I have identified answered_correctly as the target variable.
+
+Day 3 - 10/03/25
+
+Let's start with fixing the issue of loading the unessential data converted data sets.
+I am again consulting claude on this matter, I really prefer claude to gpt as it has more query allowance to chatgpt and úrovides better and cleaner code.
+I did quite an extensive research on comparing them both and it did say claude is better for this purpose - I might even pay for the plus version.
+
+Right so the initil approach for downloading just the one file doesn't work and the other that claude suggested seems to complicated.
+I saved the alternate code to my 'extra code' section and might come back to it later or ask the tutor next week whilst I am working with what I already tested to be working so I am not wasting time.
+
+Next task on the list is fixing the data types in my dataset so it loads faster.
+The one that definitely needs fixing is 'prior_question_had_explanation' as its meant to me boolean which is even written in the feature list of the og Riiid dataset.
+I have also cross checked all other variables and the other one that stands out is 'answered_correctly' as it only has 3 values (-1, 0, 1).
+In the feature list it states that -1 is to be treated as 0 so using boolean here too could be beneficial.
+The author of the pickle dataset has already converted 'content_type_id' into boolean so he saved me a job there.
+Next thing I did was to check if the int64 and int32 variables need to stay this format using .max function.
+Coverting them to a lower integer format could save me some more needed memory space.
+Last but not least, 'prior_question_elapsed_time' is currently float64 since it has decimals but because it's already in miliseconds and 'timestamp' doesnt have decimals I am thiking to covert it to int32.
+It's kind of annoying that our next class with the tutor isn't until next monday as I need to keep progressing to make it to the deadline.
+And staying in that thursdy class wouldn't make any difference as I only got to this point after 2 days of playing around with the dataset.
