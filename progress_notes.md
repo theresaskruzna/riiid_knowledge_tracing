@@ -56,3 +56,9 @@ Coverting them to a lower integer format could save me some more needed memory s
 Last but not least, 'prior_question_elapsed_time' is currently float64 since it has decimals but because it's already in miliseconds and 'timestamp' doesnt have decimals I am thiking to covert it to int32.
 It's kind of annoying that our next class with the tutor isn't until next monday as I need to keep progressing to make it to the deadline.
 And staying in that thursdy class wouldn't make any difference as I only got to this point after 2 days of playing around with the dataset.
+
+Next one up today, we have sorting out the questions.csv and lectures.csv datasets.
+These datasets are much smaller than train.pkl.gzip.
+I had a look at the data types and will be changing unnecessary int64 to int16 and int8 accordingly.
+Both datasets have 4 features, no duplicates and only questions.csv has 1 missing value for the 'tags' variable so will most likely just get rid of the row where it's missing.
+The next thing I should be doing is some data visualisations on key distributions and relationships within the datasets before I start on my feature engineering.
