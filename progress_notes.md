@@ -62,3 +62,6 @@ These datasets are much smaller than train.pkl.gzip.
 I had a look at the data types and will be changing unnecessary int64 to int16 and int8 accordingly.
 Both datasets have 4 features, no duplicates and only questions.csv has 1 missing value for the 'tags' variable so will most likely just get rid of the row where it's missing.
 The next thing I should be doing is some data visualisations on key distributions and relationships within the datasets before I start on my feature engineering.
+
+Right, I decided to deal with the 1 missing value in the question.csv as it was easy enough.
+I first cross checked the representation of this particular question in the train.pkl.gzip dataset but as it was only asked once in this huge dataset, I decided to delete it altogether.
