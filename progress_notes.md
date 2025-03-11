@@ -68,4 +68,14 @@ I first cross checked the representation of this particular question in the trai
 I can see that the 3 datasets are pretty interconnected as we see features like question_id from the smaller ones represented in the main dataset.
 So I'll have a look at each variable now and how it may be connected to the other datasets.
 
+Day 4 - 11/03/25
 
+I had to work all day today so it was quite tricky to make any progress on the project.
+I took my ipad to work and wrote some code for memmory optimisation like dropping a column and defining data types for all columns using chatgpt and claude.
+When I finally got home, I copied all the code into my collab notebook and made some changes and polishing.
+Next thing I focused on creating some funtions.
+First function I made was for checking memory usage.
+The next function I coded was to create a KDE plot.
+I consulted both chatgpt and claude and sort of merged what I was given by both.
+I decided to just create a simple one and keep extra parameters as comments within the function for now so they can be added if I decide to.
+I also added comments to each line of the code as that helps me to understand what each line or parameter actually does as I don't want to just copy paste things but actually understand what they do and what can happen if I omit it.
