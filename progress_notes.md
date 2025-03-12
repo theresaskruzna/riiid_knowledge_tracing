@@ -90,4 +90,7 @@ I also added comments to each line of the code as that helps me to understand wh
 Day 5 - 12/03/25
 
 Again working all day then had a yoga class in the evening oopsies.
-So it's 9.15pm now and I don't think I'll get much done today as I usually had to bed by 11pm to get 8 hours of sleep before another long wotrk day.
+So it's 9.15pm now and I don't think I'll get much done today as I usually had to bed by 11pm to get 8 hours of sleep before another long work day.
+Righto, I had created a histogram function using the kde plot as an inspo and getting help from claude to alter it.
+I want to keep it nice and concise across all the functions as in some ways I am quite the perfectionist.
+I managed to create both bar plor and histogram functions and since I am doing these I might as well just do the rest - box plot, scatter plot and heatmap functions.
