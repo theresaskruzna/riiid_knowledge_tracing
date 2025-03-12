@@ -68,6 +68,13 @@ I first cross checked the representation of this particular question in the trai
 I can see that the 3 datasets are pretty interconnected as we see features like question_id from the smaller ones represented in the main dataset.
 So I'll have a look at each variable now and how it may be connected to the other datasets.
 
+I went through the list of variables and performed some basic analysis on them.
+I looked at factors like how many unique values there are, for features with only few categorical values I looked at counts for each of them and had a look at some percentage proportions.
+One feature was particluarly interesting - timestamp, as the values are given in miliseconds and the maxium value is 87 BILLION!! miliseconds which I had no idea how that translates to normal time, turns out its nearing the 3 year mark.
+That means that the longest standing user of the platform has been active on it for nearly 3 years at the time of creating this dataset.
+It would be interesting to see whats their pattern of interacting and how they actually do with answering questions.
+Another interesting thing to see I just thought now would be the interaction patter of the person who is the most succesful with their answers so will have to pull that data out of the dataset too.
+
 Day 4 - 11/03/25
 
 I had to work all day today so it was quite tricky to make any progress on the project.
@@ -79,3 +86,8 @@ The next function I coded was to create a KDE plot.
 I consulted both chatgpt and claude and sort of merged what I was given by both.
 I decided to just create a simple one and keep extra parameters as comments within the function for now so they can be added if I decide to.
 I also added comments to each line of the code as that helps me to understand what each line or parameter actually does as I don't want to just copy paste things but actually understand what they do and what can happen if I omit it.
+
+Day 5 - 12/03/25
+
+Again working all day then had a yoga class in the evening oopsies.
+So it's 9.15pm now and I don't think I'll get much done today as I usually had to bed by 11pm to get 8 hours of sleep before another long wotrk day.
