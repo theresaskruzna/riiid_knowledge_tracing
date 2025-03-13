@@ -97,4 +97,9 @@ I managed to create both bar plor and histogram functions and since I am doing t
 
 Day 6 - 13/03/25
 
-Surprise surprise, we have a class today lol - the email about it apparently went out last month but since I was away in Indo/Australia I must have missed it when it probably landed in my spam folder that clears itself each month as it is not in my main inbox.
+Surprise surprise, we have a class today lol - the email about it apparently went out last month but since I was away in Indo/Australia I must have missed it when it probably landed in my spam folder that clears itself each month as it is not in my main inbox. 
+Or they just didn't send it to me as it seems that our tutor also had not known we have a class today.
+We did go over my project tho and I got some valuable feedback. I do know that this is a challenge as he did confirm that we hadn't really worked on the model, I will most likely need for this project, during our classes but he also didn't flat out say I should abandon this project and do one of the ones he gave us to choose from.
+I implemented some of his feedback straight away, for instance, to create a separated file for all my functions to call tghem from.
+I think I also finalised all the functions for my visualisations so I can finbally use them in my main code tomorrow.
+I promised I'll have a dataframe to work with for modeal building on Monday so that will be my goal for the weekend to finalise the EDA and feature engineering and merge my datasets into a single dataframe.
