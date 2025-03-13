@@ -94,3 +94,7 @@ So it's 9.15pm now and I don't think I'll get much done today as I usually had t
 Righto, I had created a histogram function using the kde plot as an inspo and getting help from claude to alter it.
 I want to keep it nice and concise across all the functions as in some ways I am quite the perfectionist.
 I managed to create both bar plor and histogram functions and since I am doing these I might as well just do the rest - box plot, scatter plot and heatmap functions.
+
+Day 6 - 13/03/25
+
+Surprise surprise, we have a class today lol - the email about it apparently went out last month but since I was away in Indo/Australia I must have missed it when it probably landed in my spam folder that clears itself each month as it is not in my main inbox.
