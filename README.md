@@ -9,4 +9,4 @@ Time series forecasting project using Keras to predict student answer correctnes
 - Pandas, NumPy, Matplotlib, Seaborn
 
 ## Project Timeline
-March 9-31, 2025
+March 6-31, 2025
