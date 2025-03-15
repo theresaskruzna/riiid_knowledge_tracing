@@ -113,3 +113,8 @@ Day 8 - 15/03/25
 Rested and ready to jump back in.
 Started off with splitting data exploration into a different notebook to keep my main notebook better organised.
 Implemented dtypes and usecols into the code for better memory optimisation when reading my file.
+So I made a bit of a mess in my files after I decided to take out the data exploration into a different file as I forgot that I renamed myy original file where I kept most of my code and kept working in an alternate on.
+I had to do all the changes to my original file again lol.
+Next thing on the list was prepping my visualisations.
+I copied some predefined functions from a separate file for now but will look into calling them out of that file in the future.
+I also added some simle value count and unique value count to the questions.csv and lectures.csv datasets.
