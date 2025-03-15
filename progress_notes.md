@@ -117,4 +117,9 @@ So I made a bit of a mess in my files after I decided to take out the data explo
 I had to do all the changes to my original file again lol.
 Next thing on the list was prepping my visualisations.
 I copied some predefined functions from a separate file for now but will look into calling them out of that file in the future.
-I also added some simle value count and unique value count to the questions.csv and lectures.csv datasets.
+I also added some simple value count and unique value count to the questions.csv and lectures.csv datasets.
+
+I spent few hours by coding visualisations for all feature as well as prepping code for outliers and merging datasets.
+Now I am contemplating if to take a break and return to this later or just push through.
+It's currently 5.30pm and I have to take the dug out in abou 1-2 hours.
+I could probably test run the notebook to see if the code is working as so far I have just been filling the notebook withiut running it lol.
