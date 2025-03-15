@@ -103,3 +103,13 @@ We did go over my project tho and I got some valuable feedback. I do know that t
 I implemented some of his feedback straight away, for instance, to create a separated file for all my functions to call tghem from.
 I think I also finalised all the functions for my visualisations so I can finbally use them in my main code tomorrow.
 I promised I'll have a dataframe to work with for modeal building on Monday so that will be my goal for the weekend to finalise the EDA and feature engineering and merge my datasets into a single dataframe.
+
+Day 7 - 14/03/25
+
+Took a break from coding today as my brain was a mush anyway so don't think I would come up with anything decent.
+
+Day 8 - 15/03/25
+
+Rested and ready to jump back in.
+Started off with splitting data exploration into a different notebook to keep my main notebook better organised.
+Implemented dtypes and usecols into the code for better memory optimisation when reading my file.
