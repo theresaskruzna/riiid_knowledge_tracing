@@ -123,3 +123,10 @@ I spent few hours by coding visualisations for all feature as well as prepping c
 Now I am contemplating if to take a break and return to this later or just push through.
 It's currently 5.30pm and I have to take the dug out in abou 1-2 hours.
 I could probably test run the notebook to see if the code is working as so far I have just been filling the notebook withiut running it lol.
+
+So I did a lot of testing on the code I had written and although I made a huge mess of it at first, I think I managed to get all of it wotking at the end.
+Challenge was again the size of the dataset so I had to apply some sampling within my functions for the visualisations and then cross check if they actually work with some sample EDAs from the competition.
+I did a basic heatmap for the correlation but to be honest, I am not sure if its telling much.
+I also did reorganise my table of contents a bit so it makes more sense.
+I am planning to finish off the EDA tomorrow so I can start on some feature engineerings (already have a couple of ideas) and producing a df for modeling that my tutor requested to be ready by Monday class.
+Time for bed now as it's nearly 11pm.
