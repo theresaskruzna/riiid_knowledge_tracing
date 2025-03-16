@@ -141,3 +141,11 @@ But maybe it's for the best as I think I made a bit of a mess of everything yest
 I also spent a few hours coding for missing values and outliers and I think I got to a point where I am ok with it. It was really hard to determine what is the outliers in this dataset but at the end I decided it could be the user engagement, e.g, the people who barely used the platform.
 As of now I set that to 1% of all users but I might play around with it later.
 I really need to focus on creating a data frame for modelling so I want to pretty much merge all 3 data sets together as both questions.csv and lectures.csv have foreign keys for train.csv dataset so hopefully merging it wont be a pain.
+
+OK so I think I put in quite the work today.
+I have worked on feature engineering - I performed one hot encoding on features in both questions_df and lectures_df, I also came up with a few ideas for new features to be added and prepped the code for them.
+I have got a function to merge all 3 datasets and prepped some stuff for train/test split.
+There are 2 approaches I can take, either take the last 5 latest answers from each user in the dataset for a validation set, or (which I incline to more) group users by their activity level and then do a train/test split.
+There is actually so much code in my notebook now that I am starting to get lost in it even though I am keeping the table of contents pretty neat so might need to do something about that.
+I might be dine for today as again my brain is not really braing anymore and my upper back hurt like hell.
+I do have work all day tomorrow which will be quite tricky since my computer needs to be connected to an external monitor but I'll see if I can get some stuff done on my ipad, at least make a list of questions for the tutor and make sure I do have a working data frame for him to see and help me build a model with.
