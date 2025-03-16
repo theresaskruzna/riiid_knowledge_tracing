@@ -130,3 +130,14 @@ I did a basic heatmap for the correlation but to be honest, I am not sure if its
 I also did reorganise my table of contents a bit so it makes more sense.
 I am planning to finish off the EDA tomorrow so I can start on some feature engineerings (already have a couple of ideas) and producing a df for modeling that my tutor requested to be ready by Monday class.
 Time for bed now as it's nearly 11pm.
+
+Day 9 - 16/03/25
+
+So I started today with a bit of a panic.
+I DID NOT SAVE MY LAST MODIFICATIONS YESTERDAY!!
+What an idiot but obviouslyy we learn from mistakes right.
+I had to do all the modifications to my functions and visualisations again and also reorganise the table of contents again.
+But maybe it's for the best as I think I made a bit of a mess of everything yesterday and today I got to start over with it and knew exactly what I wanted to have at that point.
+I also spent a few hours coding for missing values and outliers and I think I got to a point where I am ok with it. It was really hard to determine what is the outliers in this dataset but at the end I decided it could be the user engagement, e.g, the people who barely used the platform.
+As of now I set that to 1% of all users but I might play around with it later.
+I really need to focus on creating a data frame for modelling so I want to pretty much merge all 3 data sets together as both questions.csv and lectures.csv have foreign keys for train.csv dataset so hopefully merging it wont be a pain.
