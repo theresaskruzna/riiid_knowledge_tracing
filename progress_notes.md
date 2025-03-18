@@ -149,3 +149,33 @@ There are 2 approaches I can take, either take the last 5 latest answers from ea
 There is actually so much code in my notebook now that I am starting to get lost in it even though I am keeping the table of contents pretty neat so might need to do something about that.
 I might be dine for today as again my brain is not really braing anymore and my upper back hurt like hell.
 I do have work all day tomorrow which will be quite tricky since my computer needs to be connected to an external monitor but I'll see if I can get some stuff done on my ipad, at least make a list of questions for the tutor and make sure I do have a working data frame for him to see and help me build a model with.
+
+Day 10 - 17/03/25
+
+I managed to prep a bit of work on the ipad at work but could only really code when I got back home.
+I wasn't too happy about the feedback I received from my lecturer as last week he told me just sack my perfectionism off and make sure I have done all the steps to get to a working data frame.
+That is what I did but he complained that my code is too messy and he can't read it, however, I know what has been done so why does that matter plus he did say that right now I shouldn't care if its messy.
+Also I found out at the start of the lesson that I am technically supposed to be presenting this online next monday so that kinda changes things and my timeline lol.
+The code unfortunatelly keeps crashing on my laptop as it is a piece of sh*t so my tutor suggested I just get a sample out of the data so I can at least find out if my code is coding.
+I tried to use 'chunksize' but it would take forever so using dask and sample of a 100k rows which is decent enough.
+I am not working the morning so will put in some work.
+
+Day 11 - 18/03/25
+
+I managed to get up early enough today so I can code for coupla hours before going.
+I've got everything done up until train/test split.
+I think I managed to fix all the merging issues and got the one hot encoding working.
+The sample is not the best as it doesn't represent the data properly but it works enough to find out if the code is ok.
+I have created an extra feature to calculate knowledge growth rate as something similar was done in another notebook on kaggle.
+I am also saving all the code I am working on with the sampled dataset into a new branch as I dont want to mix the code at the moment.
+
+When I got back at the evening, I started on building a model. I opened a new separate notebook for it and had a look at some past projects, e.g. chess figures, we did in the class to know where to start or if there is also any code I could copy and modify to nmy needs.
+I also consulted my bestie Claude and together we decided to use a LSTM based model using tensorflow keras API.
+I discussed this with the lecturer once he had a minute for me and he approved of it.
+He also said that he's more hopeful for my project now and that it looks like I know what I am doing and that he previously had someone who also was a bit ˇbehind' because they had a more challenging project and it ended up being one of the best out of the group so that was nice to hear.
+I think him doubting me before I also started doubting myself which isn't great as I do think I can managed this.
+
+I build a pretty simple sequential neural network model with few options to modify it to make it more layered.
+I got early stopping and model checkpoint done.
+And I started coding the training bit for the model.
+Tomorrow is another day so will continue then plus I know that I will do most of it at the weekend anyway.
