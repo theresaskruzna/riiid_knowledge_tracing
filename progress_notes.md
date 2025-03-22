@@ -203,3 +203,8 @@ Day 15 - 22/03/25
 Had a slow morning today and then took the dug out for a big walk again so finally got around working on the project again after 4pm.
 I started with organising the sections and cleaning the code, getting rid of stuff that is not needed.
 I had to switch around the order of train test split and scaling as I found out that if you scale both x and y before train test split it can lead to data leakage plus y variable is already a binary value (0, 1) so it doesnt need to be scaled.
+There is quite a bit of work to be done on the modeling but I will leave that for tomorrow.
+I managed to organise the sections a bit better today so the notebook flows and removed code that I don't need or like.
+Plan for tomorrow is to organise the EDA section, train and evaluate the model and start on my presentation slides.
+I am also crating another branch off the main one just cos I did a lot of amendments on the chunksize one and probably want to focus on few different bits without changing that.
+I decided to keep everything in one notebook for the purpose of presenting the project so need to organise the sections and different notebooks on github.
