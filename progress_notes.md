@@ -179,3 +179,27 @@ I build a pretty simple sequential neural network model with few options to modi
 I got early stopping and model checkpoint done.
 And I started coding the training bit for the model.
 Tomorrow is another day so will continue then plus I know that I will do most of it at the weekend anyway.
+
+Day 12 - 19/03/25
+
+We have our last class with the tutor befor the mock up presentations and my dug is sick which is great timing.
+I didnt do any progress during the day and once I finally properly hopped on the call I loaded all my code needed to run the model and just went for it.
+It needed a few tweaks but it actually ended up running which was a bit of a surprise to me lol.
+The accuracy stands at about 64% and it ran for 11 epochs, it's not great but considering that the winning model of the kaggle competition had accuracy of roughly 81%, its a good start.
+The lecturer said it was ok and I should focus on playing with the model now to raise the accuracy and evaluation.
+
+Day 13 - 20/03/25
+
+Took a day off from coding today as it was first day of spring and finally gorg weather here so took the dug out for a big walk after work and the just chilled.
+
+Day 14 - 21/03/25
+
+Did nothing again lol.
+The good weather doesnt make me want to sit at a computer and code.
+Plus we were out most arvo with my sister and the dug again.
+
+Day 15 - 22/03/25
+
+Had a slow morning today and then took the dug out for a big walk again so finally got around working on the project again after 4pm.
+I started with organising the sections and cleaning the code, getting rid of stuff that is not needed.
+I had to switch around the order of train test split and scaling as I found out that if you scale both x and y before train test split it can lead to data leakage plus y variable is already a binary value (0, 1) so it doesnt need to be scaled.
