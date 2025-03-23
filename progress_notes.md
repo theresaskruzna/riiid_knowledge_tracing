@@ -217,3 +217,4 @@ I chose a pretty simple format in google docs for the mock up presentation but I
 I also added info about all variables into my main notebook.
 Next thing I did was consulting my bestie Claude on how to evaluate my model and gpt some code prepped.
 I noticed I had not done a validation split in ma data that I will later need for the evaluation so I went back and corrected that.
+If my dataset was small, I could do cross validation instead of having to split the validation set but the dataset is huge.
