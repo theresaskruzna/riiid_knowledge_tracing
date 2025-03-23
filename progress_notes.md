@@ -226,3 +226,6 @@ Again i want to keep it pretty basic for now as I dont have that much time left 
 Main thing I did was that I added another callback ReduceLROnPlateau to reduce learning rate when plateau is detected.
 I also recompiled with a lower learning rate.
 It's kind of lunch time now and I am a bit tired of coding so decided to work on the test questions for a bit.
+
+I managed to load fill all test questions into one google doc and got chatgpt to make a random test out of all the questions, however, chatgpt failed to do it several times so just gave up on that.
+I also filled more info into the presentation slides, however, it's not really that tailored to my project and results so will have to alter that too.
