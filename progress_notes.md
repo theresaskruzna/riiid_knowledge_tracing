@@ -208,3 +208,12 @@ I managed to organise the sections a bit better today so the notebook flows and 
 Plan for tomorrow is to organise the EDA section, train and evaluate the model and start on my presentation slides.
 I am also crating another branch off the main one just cos I did a lot of amendments on the chunksize one and probably want to focus on few different bits without changing that.
 I decided to keep everything in one notebook for the purpose of presenting the project so need to organise the sections and different notebooks on github.
+
+Day 16 - 23/03/25
+
+I started a bit earlier today as the weather isnt great so it was just a quick walk with the dug.
+I filled in some more info into my presentation.
+I chose a pretty simple format in google docs for the mock up presentation but I might make it more interesting for the final exam.
+I also added info about all variables into my main notebook.
+Next thing I did was consulting my bestie Claude on how to evaluate my model and gpt some code prepped.
+I noticed I had not done a validation split in ma data that I will later need for the evaluation so I went back and corrected that.
