@@ -218,3 +218,11 @@ I also added info about all variables into my main notebook.
 Next thing I did was consulting my bestie Claude on how to evaluate my model and gpt some code prepped.
 I noticed I had not done a validation split in ma data that I will later need for the evaluation so I went back and corrected that.
 If my dataset was small, I could do cross validation instead of having to split the validation set but the dataset is huge.
+
+Righto so I coded some evaluation functions for my model - basic metrics, confusion matrix, training history, and history/forecast curve.
+There is a lot vmore I could evaluate but I think for now I want to keep it pretty basic.
+Next thing I did was work on fine tuning for my model following the findings of my evaluation.
+Again i want to keep it pretty basic for now as I dont have that much time left plus the presentation time is also limited and I always tend to go over as I faff about with redundant info.
+Main thing I did was that I added another callback ReduceLROnPlateau to reduce learning rate when plateau is detected.
+I also recompiled with a lower learning rate.
+It's kind of lunch time now and I am a bit tired of coding so decided to work on the test questions for a bit.
